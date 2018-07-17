@@ -14,7 +14,7 @@ const CountApp = ({count, dispatch}) => {
 }
 
 function mapStateToProps(state) {
-    return { count: state.count }
+    return { count: state.count2 }
 }
 const HomePage = connect(mapStateToProps)(CountApp);
 
